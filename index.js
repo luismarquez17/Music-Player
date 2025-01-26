@@ -15,9 +15,9 @@ const music = new Audio();
 const songs = [
     {
         path: 'assets/1.mp3',
-        displayName: 'The Charmer\'s Call',
-        cover: 'assets/1.jpg',
-        artist: 'Hanu Dixit',
+        displayName: 'Numb',
+        cover: 'assets/1.jpeg',
+        artist: 'Linkin Park',
     },
     {
         path: 'assets/2.mp3',
@@ -30,7 +30,14 @@ const songs = [
         displayName: 'Intellect',
         cover: 'assets/3.jpg',
         artist: 'Yung Logos',
-    }
+    },
+    {
+        path: 'assets/4.mp3',
+        displayName: 'INTERWORLD - RAPTURE',
+        cover: 'assets/4.jpeg',
+        artist: 'METAMORPHOSIS',
+    }, 
+    
 ];
 
 let musicIndex = 0;
